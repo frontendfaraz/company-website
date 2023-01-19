@@ -67,15 +67,16 @@ p {
 }
 button {
   border: none;
-  background-color: #546186;
+  background-color: #2551af;
   padding: 1rem 2rem;
   margin: 1rem 0;
   color: #fff;
   cursor: pointer;
+  border-radius: 2rem;
   font-size: 1.2rem;
 }
 button:focus {
-  outline-color: #546186;
+  outline-color: none;
 }
 .react-img {
   position: absolute;

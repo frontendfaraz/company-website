@@ -1,19 +1,21 @@
 .NavbarItems {
-  background: linear-gradient(90deg, #c5c2c2, #c5c2c2);
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
+ background: #ffffffa6;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(15px);
 }
 
 .navbar-logo {
   color: #555;
   justify-self: start;
   margin-left: 20px;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -34,8 +36,9 @@
 }
 
 .nav-links {
-  color: white;
+  color: #888;
   text-decoration: none;
+  font-size: 14px;
   padding: 0.5rem 1rem;
 }
 

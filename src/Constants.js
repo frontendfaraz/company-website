@@ -1,9 +1,8 @@
 import mobile2 from "./assets/mobile2.png";
 import web1 from "./assets/web1.png";
 import mobile1 from "./assets/mobile1.png";
-import { farazWorks } from './Constants';
 
-
+export const companyName = 'Rytech'
 export const farazWorks = [
   {
     type: "Mobile",

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import reactImg from "../assets/react.png";
-import codeImg from "../assets/code.png";
+import { Row, Col } from "react-flexbox-grid";
 
 export default class WhatWeDo extends Component {
   render() {
